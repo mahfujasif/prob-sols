@@ -1,9 +1,12 @@
+from collections import deque
 
-a = "njfKjldf"
 
-sa = ''.join(sorted(a))
-print(sa)
-print(a)
+d = deque()
 
-sss = a.lower()
-print(sss)
+d.append(3)
+d.append(7)
+
+print(d.pop(), d.pop(), d.pop())
+
+
+
