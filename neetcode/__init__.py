@@ -1,10 +1,9 @@
 
-numMap = dict()
-numMap[2] = False
-print(numMap.get(4))
-print(numMap.get(2))
+a = "njfKjldf"
 
-if numMap[4]:
-    print("ok")
-else:
-    print("nok")
+sa = ''.join(sorted(a))
+print(sa)
+print(a)
+
+sss = a.lower()
+print(sss)
