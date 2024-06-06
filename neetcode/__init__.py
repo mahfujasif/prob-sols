@@ -1,12 +1,8 @@
-from collections import deque
+dd = {33:'a', 5:'g', 10: 'h'}
 
+dd = dict(sorted(dd.items()))
 
-d = deque()
-
-d.append(3)
-d.append(7)
-
-print(d.pop(), d.pop(), d.pop())
-
+for k in dd:
+    print(dd.get(k))
 
 
